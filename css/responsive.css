@@ -254,6 +254,7 @@
     =====================*/
 }
 /*======================== Medium ends ==========================*/
+/*======================== small starts ==========================*/
 @media (min-width: 576px) and (max-width: 768px){
     .head-para{
         padding: 0 0px;
@@ -544,5 +545,280 @@
     /*=====================
        footer ends
     =====================*/
-
 }
+/*======================== small starts ==========================*/
+
+/*======================== extrs-small starts ==========================*/
+@media (max-width: 576px){
+        .head-para{
+        padding: 0 0px;
+    }
+    /*================
+    common head ends
+    ================*/
+
+ /*=============== 
+        header starts
+    =================*/
+    header .middel {
+        width: 90%;
+        margin: auto;
+    }
+
+    #brand .left-side p{
+        text-align: center;
+    }
+
+    #brand .middel p{
+        text-align: center;
+    } 
+
+    #brand .right-side ul{
+        justify-content: space-evenly !important;
+    }
+     /*=============== 
+        header ends
+    =================*/
+        
+     /*=============== 
+        nav starts
+    ==============*/
+    .navbar-light .navbar-toggler{
+        border-color: #353535;   
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+        border-color: #FFCA36;
+    }
+
+    .navbar-light .navbar-toggler span{
+        transition: all linear 0.4s;
+    }
+
+    .navbar-light .navbar-toggler:hover span{
+        color: #FFCA36;
+    }
+
+    .navbar .nav-list ul{
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        background-color: #FFCA36;
+        color: #353535;
+    }
+
+    .nav-item .nav-link:hover::before {
+        transform: scale(0);
+    }
+
+    .nav-item .nav-link:hover::after {
+        transform: scale(0);
+    }
+
+    .navbar .navbar-nav li{
+        margin-bottom: 5px;
+    }
+    /*=============== 
+        nav ends
+    ==============*/
+        
+    /*=============== 
+        banner starts
+    ================*/
+    #banner .banner-item .banner-text h5 {
+        margin-top: 150px;
+        font-size: 33px;
+    }
+
+    #banner .banner-item .banner-text p{
+        font-size: 13px;
+    }
+
+    #banner .banner-item .banner-text .btn{
+        font-size: 13px;
+        line-height: 45px;
+        margin-top: 45px;
+        margin-bottom: 100px;
+        padding: 0 17px;
+    }
+
+    #banner .slick-slider .left{
+        top: 55%;
+    }
+
+    #banner .slick-slider .right{
+        top: 55%;
+    }
+    /*=============== 
+        banner ends
+    ================*/
+    
+    /*==================
+        services starts
+    ===================*/
+    #service .head-para {
+        padding: 0 48px;
+    }
+
+    #service .row{
+        padding-top: 0px;
+    }
+
+    #service .service-item{
+       margin-top: 60px;
+    }
+    /*==================
+        services ends
+    ===================*/
+       /*==================
+        about starts
+    ===================*/
+    #about{
+        padding-top: 100px;
+        background: url(../images/about-bg-img.jpg) no-repeat center ;
+        padding-bottom: 100px;
+    }
+    #about .row{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #about .about-text {
+        padding-left: 0px;
+    }
+
+    #about .about-text h6{
+        color: #fff;
+    }
+
+    #about .nav-tabs .nav-link {
+        color: #fff;
+        margin-right: -9px;
+        font-size: 16px;
+    }
+
+    #about .about-text p {
+        line-height: 25px;
+        margin-top: 10px;
+    }
+
+    .nav-tabs .nav-link:focus{
+        color: #fff;
+        background-color: transparent;
+    }
+
+    .nav-tabs .nav-link:hover{
+        color: #fff;
+    }
+
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+        background-color: transparent;
+        color: #fff;
+    }
+
+    #about .nav-tabs {
+        width: 76.3%;
+    }
+
+    #about .about-text a {
+        border: 1px solid var(--brand);
+        color: #fff;
+    }
+
+    #about .about-text p:first-of-type{
+        color: #fff;
+    }
+
+    #about .about-text p:last-of-type{
+        color:#FFCA36 !important;
+    }
+    /*==================
+        about ends
+    ===================*/
+    /*==================
+       portfolio starts
+    ===================*/
+
+    #portfolio{
+        padding-top: 0;
+        padding-bottom: 70px;
+    }
+
+    #portfolio .portfolio-img{
+        margin-bottom: 30px;
+    }
+
+    #portfolio .portfolio-img .overlay {
+        bottom: 715px;
+    }
+    /*==================
+       portfolio ends
+    ===================*/
+        
+    /*==================
+        blog starts
+    ===================*/
+    #blog {
+        padding-top: 80px;
+    }
+
+    #blog .blog-item{
+        width: 80%;
+        margin: auto;
+    }
+
+    #blog .card .overlay {
+        height: 416px;
+    }
+
+    #blog .card .overlay-two {
+        top: 366px;
+    }
+
+    #blog .card .card-body p {
+        padding: 0px 10px;
+    }
+
+    #blog .card .card-body a{
+        margin-left: 129px;
+    }
+
+    #blog .card .card-body a {
+        padding: 10px 16px !important;
+        font-size: 13px;
+    }
+    /*==================
+       blog ends
+    ===================*/
+        /*=====================
+       testimonial starts
+    =====================*/
+
+    #testimonial .head-para {
+        padding: 0px 48px !important;
+    }
+
+    #testimonial .testimonial-text p {
+        padding: 60px 0px 0;
+    }
+
+    #testimonial .testimonial-img img{
+        transform: scale(.3);
+    }
+
+    #testimonial .testimonial-img .slick-center img {
+        transform: scale(.4);
+    }
+
+    #testimonial .test-slider2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    /*=====================
+       testimonial ends
+    =====================*/
+}
+/*======================== extrs-small ends ==========================*/
